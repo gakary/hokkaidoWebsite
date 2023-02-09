@@ -9,7 +9,7 @@ body{
     align-items: center;
     background-image: url("images/cover.png");
     /* or using cover */
-    background-size: auto;
+    background-size: cover;
     height: 450px;
     /* top-left , top-right , bottom-left , bottom-right */
     border-radius: 0px 0px 10px 10px;
