@@ -1,6 +1,7 @@
 body{
     background-color: #A9B3BC;
     font-family: 'Hina Mincho', serif;
+    margin: 0px;
 }
 
 .homepage_container{
@@ -41,70 +42,35 @@ body{
 
 
 .places_container{
-    height:205px;
-    display:flex;
-
-    margin: 0px auto;
-     /* make the place images center , if drag the browser still center */
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    /*
-    if the height is enough, it can use: 
-    align-items: start , center end;
-    */ 
+    background-color: #849ba2;
+    text-align: end;
+
 }
 
-.place_img{
-    height:200px;
-    width:350px;
-    border: 0.1px solid black;
-    border-top: 2px solid black;
+#place-title{
     
 }
 
-.place_img:hover{
-    border:3px solid black;
+#place-img{
+    border: 2px solid black; 
+}
+
+#place-img:hover{
     opacity: 0.3;
+    border:2px solid red;
 }
 
-.place_details{
-    color: white;
-    background-color: #1D3557;
-
+#first-img:hover,#second-img:hover,#third-img:hover,#four-img:hover{
+    border: 2px solid black;
 }
 
-.place_text{
-    display:flex;
-    align-items:space-around;
-    text-align: center;
+#place-text{
+    width:350px;
+    height:90px;
+    padding:0px 50px 20px 0px;
 
-}
 
-#kogane_text:hover,#kitahama_text:hover,#masuura_text:hover,#asar_text:hover{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#kogane_text{
-    width:285px;
-    border-right:1px solid black;
-}
-
-#kitahama_text{
-    width:283px;
-    border-right:1px solid black;
-}
-
-#masuura_text{
-    width:283px;
-    border-right:1px solid black;
-}
-
-#asar_text{
-    width:283px;
-    border-right:1px solid black;
-}
-
-/* footer */
-#footer{
-    text-align: center;
 }
